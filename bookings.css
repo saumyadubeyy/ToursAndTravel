@@ -1,10 +1,36 @@
 body{
 	background-color: #FEF8E2;
-	
-	
-
 }
 h1{
-	text-align: left;
+	color: #C5474B;
 	font-size: 60px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-top: 30px;
+	text-shadow: #F5B67C 10px 0 10px;
+}
+label{
+	font-weight: bold;
+}
+span{
+	margin-left: 10px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: 2px solid  #C5474B;
+	color:#C5474B;
+	font-size: 30px;
+}
+form{
+	margin-top: 100px;
+	margin-left: 450px;
+	margin-right: 5px solid #C5474B;
+	margin-right: 5px solid #C5474B;
+	align-content: center;
+
+}
+button{
+	font-size: 25px;
+	font-weight: bold;
+	
 }

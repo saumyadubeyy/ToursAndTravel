@@ -24,11 +24,26 @@ h1{
 	border: 1px solid black;
 	text-align: center;
 }
-#menu a:visited{
-	color: #fdf2c9;
+a:hover{
+	color: white;
+}
+.m span:hover{
+	color: black;
+}
+#menu tr td a{
+	color: #FEF8E2;
 }
 
+#menu tr td a:hover{
+	color: black;
+} 
+.sidenav{
+	color: #C5474B;
+	font-size: 25px;
+	padding: 6px 8px 6px 8px;
+	font-weight: bold;
 
+}
 .sidenav{
 	height: auto;
 	width: 160px;

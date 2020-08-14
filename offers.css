@@ -18,7 +18,16 @@ h1{
 #ugh{
 	margin-top: 60px;
 	align-content: center;
-	margin-left: 20%;
+
+}
+a{
+	color: #C5474B;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+a:hover{
+	color: black;
 }
 table{
 	align-content: center;
@@ -50,7 +59,7 @@ tr{
   bottom: 0;
   left: 0;
   right: 0;
-  background-color:#FEF8E2 ;
+  background-color: #FEF8E2 ;
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -65,10 +74,14 @@ tr{
   font-weight: bold;
   font-size: 20px;
   position: absolute;
+  align-content: center;
   top: 20%;
   left: 20%;
   text-shadow: #e5e5e5 1px 0 10px;
   transform: translate(-20%, -20%);
   text-align: center;
   text-shadow: #FFFFFF 10px 0 20px;
+}
+.other{
+  text-align: left;
 }

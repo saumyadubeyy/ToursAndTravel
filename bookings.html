@@ -6,15 +6,72 @@
 </head>
 <body>
 	<h1>BOOKINGS</h1>
+	<div></div>
 	<form>
+		<span>Personal Details</span><br><br>
+		<label for="title">Title:</label>
+		<select id="title" required>
+			<option value="Mr">Mr.</option>
+			<option value="Ms">Ms.</option>
+			<option value="Mrs.">Mrs.</option>
+		</select><br><br>
 		<label for="FirstName">First Name:</label>
-		<input id="FirstName" type="text" >
+		<input id="FirstName" type="text" required placeholder="First Name" >
 		<label for="LastName">Last Name:</label>
-		<input id="LastName" type="text" >
+		<input id="LastName" type="text" required placeholder="Last Name">
 		<br><br>
 		<label for="emailID">Email ID:</label>
-		<input id="emailID" type="Email" >
+		<input id="emailID" type="Email" required placeholder="Email ID">
+		<br><br>
+		
+		<span>Travel Details</span><br><br>
+		<label for="numberofpassengers">Number Of Passengers</label>
+		<select id="numberofpassengers" required>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>10+</option>
+		</select><br><br>
+		<label for="startdate">Start Date</label>
+		<input id="startdate" type="date" required >
+		<label for="enddate">End Date</label>
+		<input id="enddate" type="date" required><br><br>
+		<label for="package">Destination</label>
+		<select id="package" required>
+			<option>Other</option>
+			<option>Mumbai</option>
+			<option>Ahmedabad</option>
+			<option>New Delhi</option>
+			<option>Jaipur</option>
+			<option>Kolkata</option>
+			<option>Chennai</option>
+			<option>Hyderabad</option>
+			<option>Pune</option>
+			<option>Bangalore</option>
+		</select>
+		<label for="duration">Duration Of Stay</label>
+		<select id="duration">
+			<option>2N/3D</option>
+			<option>3N/4D</option>
+			<option>4N/5D</option>
+			<option>5N/6D</option>
+			<option>6N/7D</option>
+			<option>7N/8D</option>
+		</select>
+		<br><br><br>
+	
+	<button><a href="submit.html">Submit</a></button>
 	</form>
+
+
+	
 
 </body>
 </html>

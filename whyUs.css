@@ -21,3 +21,11 @@ span{
 	font-size: 1.5em;
 	text-decoration: underline #C5474B ;
 }
+a{
+	font-weight: bold;
+	font-size: 20px;
+	color: #C5474B;
+}
+a:hover{
+	color: black;
+}
