@@ -1,0 +1,23 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #FEF8E2;
+}
+h1{
+	color: #C5474B;
+	font-size: 400%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	text-shadow: #F5B67C 10px 0 10px;
+
+}
+li{
+	font-size: 20px;
+}
+span{
+	font-size: 1.5em;
+	text-decoration: underline #C5474B ;
+}

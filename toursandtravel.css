@@ -14,6 +14,7 @@ h1{
 	margin: 0;
 	text-shadow: #F5B67C 10px 0 10px;
 }
+
 #menu{
 	width: 100%;
 	font-size: 30px;
@@ -23,6 +24,10 @@ h1{
 	border: 1px solid black;
 	text-align: center;
 }
+#menu a:visited{
+	color: #fdf2c9;
+}
+
 
 .sidenav{
 	height: auto;
@@ -108,9 +113,116 @@ p{
 	width: 100%;
 	align-content: center;
 	border: 6px solid #C5474B;
+	margin-bottom: 20px;
 }
 .bg td{
 	background-color: #e5b995;
 	font-size-adjust: 1px;
 }
-#C5474B
+img .manali{
+	width: 30;
+	margin: 1.6%;
+} 
+/*gallery*/
+#gallery1{
+	color: #C5474B;
+	font-size: 300%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	text-shadow: #F5B67C 10px 0 10px;
+
+}
+.gallery2{
+	font-size: 1.5em;
+	color: black;
+	background-color: #FEE690;
+	text-align: center;
+	border-left: 5px solid #C5474B;
+	border-right: 5px solid #C5474B;
+}
+#gallery3{
+	list-style-type: none;
+}
+.g{
+	font-size: 1.5em;
+	background-color: #FEE690;
+	text-align: center;
+	border-left: 5px solid #C5474B;
+	border-right: 5px solid #C5474B;
+}
+.heading{
+	text-align: center;
+	color: #C5474B;
+	font-size: 2em;
+	text-decoration-line: 1px solid;
+}
+.g1{
+	align-content: center;
+	width: 45%;
+	margin: 20px 20px 20px 400px;
+	border: 2px solid #C5474B;
+}
+#aboutus{
+	color: #C5474B;
+	font-size: 300%;
+	text-align: center;
+	padding: 0;
+	text-shadow: #F5B67C 10px 0 10px;
+	margin: 20px 20px 20px 20px;
+
+}
+#aboutus1{
+	font-size: 1.5em;
+	background-color: #FEE690;
+	text-align: center;
+	border:2px solid #C5474B;
+	
+
+
+}
+#address{
+	color: #C5474B;
+	font-size: 300%;
+	text-align: center;
+	padding: 0;
+	text-shadow: #F5B67C 10px 0 10px;
+	margin: 20px 20px 20px 20px;
+}
+
+.h{
+	border: 2px solid #C5474B;
+	font-size: 20px;
+	background-color: #FEE690;
+}
+.v{
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 2px dotted #C5474B;
+	background-color: #FEE690;
+}
+#contact{
+	color: #C5474B;
+	font-size: 300%;
+	text-align: center;
+	padding: 0;
+	text-shadow: #F5B67C 10px 0 10px;
+	margin: 20px 20px 20px 20px;
+}
+#contact1{
+	align-content: center;
+	margin-left: 400px;
+}
+.a{
+	border: 2px solid #C5474B;
+	font-size: 20px;
+	background-color: #FEE690;
+	width: 30%;
+	text-align: center;
+}
+.b{
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 2px dotted #C5474B;
+	background-color: #FEE690;
+}
