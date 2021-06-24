@@ -5,6 +5,8 @@ html{
 body{
 	background-color: #FEF8E2;
 	font-family: 'Inter', sans-serif;
+	width: 60%;
+	margin: auto;
 }
 h1{
 	color: #C5474B;

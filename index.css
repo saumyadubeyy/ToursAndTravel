@@ -28,7 +28,6 @@ h1{
 	color: #FEF8E2;
 	margin-top: 20px;
 	background-color: #C5474B;
-	/* border: 1px solid black; */
 	text-align: center;
 	padding: 8px;
 }
@@ -50,11 +49,7 @@ a:hover{
 .sidenav{
 	color: #C5474B;
 	font-size: 15px;
-	padding: 6px 8px 6px 8px;
 	font-weight: bold;
-
-}
-.sidenav{
 	height: auto;
 	width: 160px;
 	position:fixed;
@@ -62,7 +57,6 @@ a:hover{
 	border: 5px solid #C5474B ;	
 	background-color:#FEF8E2 ;
 	overflow-x: hidden;
-	padding-top: 20px 20px 20px 0;
 	margin-top: 100px;
 }
 .sidenav a{
@@ -132,9 +126,6 @@ p{
   text-align: center;
   text-shadow: #FFFFFF 10px 0 20px;
 }
-/* #trendy{
-	align-content: center;
-} */
 #trendy td{
 	margin: auto;
 	align-content: center;
@@ -197,7 +188,6 @@ p{
 }
 .heading{
 	text-align: center;
-	/* color: #C5474B; */
 	color: #b54346;
 	font-size: 30px;
 	text-decoration-line: 1px solid;
@@ -264,7 +254,6 @@ p{
 	border-collapse: collapse;
 }
 .a{
-	/* border: 2px solid #C5474B; */
 	font-size: 14px;
 	background-color: #FEE690 ;
 	text-align: center;
@@ -275,7 +264,6 @@ p{
 	font-size: 15px;
 	background-color: #FEE690;
 	padding: 3px;
-	/* border: 2px solid #C5474B; */
 }
 .gap{
 	width: 30%;	
