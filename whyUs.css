@@ -4,28 +4,41 @@ html{
 }
 body{
 	background-color: #FEF8E2;
+	width: 70%;
+	margin: auto;
 }
 h1{
 	color: #C5474B;
-	font-size: 400%;
+	font-size: 40px;
 	text-align: center;
 	padding: 0;
-	margin: 0;
+	margin: 10px;
 	text-shadow: #F5B67C 10px 0 10px;
+}
 
+#whyUs{
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	text-align: center;
+	
 }
+
 li{
-	font-size: 20px;
-}
-span{
-	font-size: 1.5em;
-	text-decoration: underline #C5474B ;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 5%;
+	box-shadow: 0 0.2rem 1rem #C5474B;
 }
 a{
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 15px;
 	color: #C5474B;
 }
 a:hover{
 	color: black;
+}
+.space{
+	font-size: 15px;
+	font-weight: bold;
 }

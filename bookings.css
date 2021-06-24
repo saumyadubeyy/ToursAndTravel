@@ -6,7 +6,6 @@ h1{
 	font-size: 60px;
 	text-align: center;
 	padding: 0;
-	margin: 0;
 	margin-top: 30px;
 	text-shadow: #F5B67C 10px 0 10px;
 }
@@ -14,7 +13,6 @@ label{
 	font-weight: bold;
 }
 span{
-	margin-left: 10px;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: 2px solid  #C5474B;
@@ -22,15 +20,27 @@ span{
 	font-size: 30px;
 }
 form{
-	margin-top: 100px;
-	margin-left: 450px;
 	margin-right: 5px solid #C5474B;
-	margin-right: 5px solid #C5474B;
-	align-content: center;
+}
+#form{
+	display: grid;
+	border-radius: 0.5rem;
+	box-shadow: 0 0.2rem 3rem #c6ccd8;
+	padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
 
+label{
+	margin-top: 10px;
+}
+#names{
+	margin-top: 10px;
+	display: inline;
 }
 button{
 	font-size: 25px;
 	font-weight: bold;
-	
+	color: black;
+	margin: 10px;
 }

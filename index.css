@@ -1,14 +1,21 @@
 html{
 	margin: 0;
 	padding: 0;
+	font-family: 'Inter', sans-serif;
 }
 body{
 	background-color: #FEF8E2;
+	background-image: linear-gradient(to bottom right, #FEF8E2, #C5474B);
+	text-align: center;
+	justify-content: center;
+}
+ol{
+	margin-block-start: 0;
+	padding-inline-start: 0;
 }
 h1{
-	
 	color: #C5474B;
-	font-size: 100px;
+	font-size: 70px;
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -17,18 +24,21 @@ h1{
 
 #menu{
 	width: 100%;
-	font-size: 30px;
+	font-size: 20px;
 	color: #FEF8E2;
 	margin-top: 20px;
 	background-color: #C5474B;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	text-align: center;
+	padding: 8px;
 }
 a:hover{
 	color: white;
 }
 .m span:hover{
 	color: black;
+	text-align: center;
+	justify-self: center;
 }
 #menu tr td a{
 	color: #FEF8E2;
@@ -39,7 +49,7 @@ a:hover{
 } 
 .sidenav{
 	color: #C5474B;
-	font-size: 25px;
+	font-size: 15px;
 	padding: 6px 8px 6px 8px;
 	font-weight: bold;
 
@@ -58,28 +68,33 @@ a:hover{
 .sidenav a{
 	padding: 6px 8px 6px 8px;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 15px;
 	font-weight: bold;
 	color: #C5474B;
 	display: block;
 }
-.sidenav a: hover{
+.sidenav a : hover{
 	color: white;
 }
-
 
 th{
 	color: #FEF8E2;
 }
 #focus{
 	margin-top: 60px;
-	align-content: center;
-	margin-left: 20%;
+	display: flex;
+    align-items: center;
+	text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+#focus img{
+	border-radius: 2%;
+	box-shadow: 0 0.2rem 0.5rem #FEF8E2;
 }
 p{
-	
 	color:#FEF8E2;
-	font-size: 40px;
+	font-size: 25px;
 	background-color: #C5474B;
 	text-align: center;
 	font-style: bold;
@@ -89,8 +104,9 @@ p{
   width: 20%;
 }
 .image {
-  width: 20%;
+  width: auto;
   height: auto;
+  margin: 0;
 }
 .overlay {
   position: absolute;
@@ -110,15 +126,18 @@ p{
 .text {
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 20%;
   text-shadow: #e5e5e5 1px 0 10px;
   transform: translate(-20%, -20%);
   text-align: center;
   text-shadow: #FFFFFF 10px 0 20px;
 }
+/* #trendy{
+	align-content: center;
+} */
 #trendy td{
 	margin: auto;
 	align-content: center;
@@ -134,71 +153,86 @@ p{
 	background-color: #e5b995;
 	font-size-adjust: 1px;
 }
-img .manali{
-	width: 30;
-	margin: 1.6%;
-} 
+
 /*gallery*/
+
+#gallery{
+	font-size: 20px;
+	width: 60%;
+	margin: 30px auto;
+}
+
 #gallery1{
 	color: #C5474B;
-	font-size: 300%;
+	font-size: 35px;
 	text-align: center;
 	padding: 0;
-	margin: 0;
+	margin:10px  0;
 	text-shadow: #F5B67C 10px 0 10px;
 
 }
 .gallery2{
-	font-size: 1.5em;
+	font-size: 15px;
+	width: 60%;
+	margin: auto;
+	padding: 10px;
 	color: black;
 	background-color: #FEE690;
 	text-align: center;
 	border-left: 5px solid #C5474B;
 	border-right: 5px solid #C5474B;
+	font-weight: bold;
 }
 #gallery3{
 	list-style-type: none;
 }
 .g{
-	font-size: 1.5em;
+	font-size: 15px;
+	width: 70%;
+	display: block;
+	margin: auto;
 	background-color: #FEE690;
 	text-align: center;
 	border-left: 5px solid #C5474B;
 	border-right: 5px solid #C5474B;
+	padding: 10px;
+	
 }
 .heading{
 	text-align: center;
-	color: #C5474B;
-	font-size: 2em;
+	/* color: #C5474B; */
+	color: #b54346;
+	font-size: 30px;
 	text-decoration-line: 1px solid;
 }
 .g1{
-	align-content: center;
-	width: 45%;
-	margin: 20px 20px 20px 400px;
-	border: 2px solid #C5474B;
+	text-align: center;
+	width: 400px;
+	border-radius: 2% ;
+	margin-bottom: 10px;
 }
 #aboutus{
-	color: #C5474B;
-	font-size: 300%;
+	color: #b54346;
+	font-size: 35px;
 	text-align: center;
-	padding: 0;
+	padding: 10px;
 	text-shadow: #F5B67C 10px 0 10px;
 	margin: 20px 20px 20px 20px;
+	border-top: 4px solid #C5474B ;
 
 }
 #aboutus1{
-	font-size: 1.5em;
+	font-size: 15px;
 	background-color: #FEE690;
 	text-align: center;
-	border:2px solid #C5474B;
-	
-
-
+	border:4px solid #C5474B;
+	width: 50%;
+	margin: auto;
+	padding: 10px;
 }
 #address{
-	color: #C5474B;
-	font-size: 300%;
+	color: #b54346;
+	font-size: 35px;
 	text-align: center;
 	padding: 0;
 	text-shadow: #F5B67C 10px 0 10px;
@@ -206,38 +240,49 @@ img .manali{
 }
 
 .h{
-	border: 2px solid #C5474B;
-	font-size: 20px;
+	border: 4px solid #C5474B;
+	border-top: none;
+	border-bottom: none;
+	font-size: 15px;
 	background-color: #FEE690;
 }
 .v{
-	font-size: 1.5em;
-	font-weight: bold;
-	border-bottom: 2px dotted #C5474B;
+	font-size: 14px;
+	font-weight: bolder;
 	background-color: #FEE690;
+	
 }
 #contact{
-	color: #C5474B;
-	font-size: 300%;
+	color: #b54346;
+	font-size: 35px;
 	text-align: center;
 	padding: 0;
 	text-shadow: #F5B67C 10px 0 10px;
 	margin: 20px 20px 20px 20px;
 }
 #contact1{
-	align-content: center;
-	margin-left: 400px;
+	text-align: center;
+	width: 60%;
+	margin:10px auto;
+	border-collapse: collapse;
 }
 .a{
-	border: 2px solid #C5474B;
-	font-size: 20px;
-	background-color: #FEE690;
-	width: 30%;
+	/* border: 2px solid #C5474B; */
+	font-size: 14px;
+	background-color: #FEE690 ;
 	text-align: center;
+	font-weight: bolder;
+	width: 30%;
 }
 .b{
-	font-size: 1.5em;
-	font-weight: bold;
-	border-bottom: 2px dotted #C5474B;
+	font-size: 15px;
 	background-color: #FEE690;
+	padding: 3px;
+	/* border: 2px solid #C5474B; */
+}
+.gap{
+	width: 30%;	
+	border: 4px solid #C5474B;
+	border-bottom: none;
+	border-top: none;
 }

@@ -3,8 +3,14 @@ html{
 	padding: 0;
 }
 body{
-	
 	background: linear-gradient(#FEF8E2,#fdf2c9);
+}
+.back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
 }
 h1{
 	color: #C5474B;
@@ -17,8 +23,10 @@ h1{
 }
 #ugh{
 	margin-top: 60px;
-	align-content: center;
-
+	/* align-content: center;
+  display: grid;
+  place-items: center; */
+  text-align: center;
 }
 a{
 	color: #C5474B;

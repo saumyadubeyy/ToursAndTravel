@@ -4,17 +4,19 @@ html{
 }
 body{
 	background-color: #FEF8E2;
+	font-family: 'Inter', sans-serif;
 }
 h1{
 	color: #C5474B;
-	font-size: 80px;
+	font-size: 60px;
 	text-align: center;
 	padding: 0;
 	margin: 100px 0 0 0;
 	text-shadow: #F5B67C 10px 0 10px;
 }
 div{
-	font-size: 1.5em;
+	font-size: 20px;
+	font-weight: bold;
 	margin-top: 100px;
 	color: black;
 	background-color: #FEE690;
@@ -25,11 +27,10 @@ div{
 table{
 	margin-top: 100px;
 	width: 100%;
-	font-size: 30px;
+	font-size: 20px;
 	color: #FEF8E2;
 	margin-top: 20px;
 	background-color: #C5474B;
-	
 	border: 1px solid ;
 	text-align: center;
 }
@@ -44,9 +45,12 @@ a:hover{
 #m{
 	color:#C5474B;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 20px;
 	text-decoration: 2px solid underline #C5474B;
-	color: 
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	text-align: center;
 }
 #m:hover{
 	color: black;
